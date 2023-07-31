@@ -7,8 +7,8 @@ let ligado;
 let posicao;
 
 for (posicao = 0; posicao < disjuntores.length; posicao++) {
-    if (posicao === true) {
-        console.log()
+    if (disjuntores[posicao] === true) {
+        console.log(posicao)
     }
 }
 
